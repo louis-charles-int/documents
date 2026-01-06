@@ -1,7 +1,9 @@
 # AllDayLoans & PingFree - Rebuild Plan 2026
 
 **Team:** Pawas & Nitin
-**Timeline:** 12 weeks (3 months)  
+
+**Timeline:** 12 weeks (3 months)
+
 **Last Updated:** 06-01-2026
 
 ---
