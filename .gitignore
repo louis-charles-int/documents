@@ -1,0 +1,65 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor/IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*~
+
+# Microsoft Office temporary files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# PDF temporary files
+*.pdf~
+*.pdf.tmp
+
+# Archive files (optional - uncomment if you don't want to track archives)
+# *.zip
+# *.tar
+# *.tar.gz
+# *.rar
+
+# Node modules (if any documentation tools use Node)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if any documentation tools use Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+

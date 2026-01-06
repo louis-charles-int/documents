@@ -2,7 +2,7 @@
 
 **Team:** Pawas, Nitin (+ potential new developer)  
 **Timeline:** 12 weeks (3 months)  
-**Last Updated:** 16-12-2025
+**Last Updated:** 06-01-2025
 
 ---
 
@@ -10,8 +10,8 @@
 
 Rebuild AllDayLoans and PingFree from scratch using modern 2026 technology:
 - **AllDayLoans:** Next.js (frontend + API routes)
-- **PingFree:** FastAPI backend + Next.js admin panel
-- **Database:** PostgreSQL (replacing MySQL)
+- **PingFree:** Laravel API (PHP) backend + Next.js admin panel
+- **Database:** MySQL (upgraded to latest version)
 - **Support:** UK + USA leads in one system
 - **Multi-project:** Handle AllDayLoans, Yuploans, QuickCashDirect, and future projects
 
@@ -23,7 +23,7 @@ Rebuild AllDayLoans and PingFree from scratch using modern 2026 technology:
 
 ### 1. Technology Stack
 - **Frontend:** React + Next.js + TypeScript
-- **Backend:** FastAPI (Python) + PostgreSQL
+- **Backend:** Laravel API (PHP) + MySQL
 - **Approach:** Modern JSON APIs (replacing old form posts)
 
 **Question:** Confirm this tech stack is acceptable?
@@ -33,17 +33,17 @@ Rebuild AllDayLoans and PingFree from scratch using modern 2026 technology:
 - **Staging after 2 weeks** - then iterative updates
 - **Build in background** - no rush, replace when ready
 - **Timeline is flexible** - will adjust based on:
-    - Changing requirements
-    - Number of developers available
+  - Changing requirements
+  - Number of developers available
 
 **Question:** Is 3 months initial estimate acceptable? Any deadline constraints or flexibility needed?
 
 ### 3. Multi-Project Support
 - One PingFree system handles multiple loan projects:
-    - AllDayLoans (UK)
-    - Yuploans (USA)
-    - QuickCashDirect (USA) - future integration
-    - Easy to add more projects later
+  - AllDayLoans (UK)
+  - Yuploans (USA)
+  - QuickCashDirect (USA) - future integration
+  - Easy to add more projects later
 
 **Question:** Confirm multi-project approach is correct?
 
@@ -66,8 +66,8 @@ Rebuild AllDayLoans and PingFree from scratch using modern 2026 technology:
 
 | Current | New |
 |---------|-----|
-| PHP/HTML | Next.js (React), FastAPI (Python) |
-| MySQL | PostgreSQL |
+| PHP/HTML | Next.js (React), Laravel API (PHP) |
+| MySQL (old version) | MySQL (latest version) |
 | UK only | UK + USA |
 | Basic reporting | Advanced reporting |
 | Single project | Multi-project support |
@@ -77,9 +77,9 @@ Rebuild AllDayLoans and PingFree from scratch using modern 2026 technology:
 ## ⚠️ Key Considerations
 
 1. **Data Migration - Decision Needed:**
-    - **Option A (Simpler):** Start fresh - keep old data in old PingFree system, new system starts storing data when it goes live
-    - **Option B (More Complex):** Migrate all existing data from old system to new system
-
+   - **Option A (Simpler):** Start fresh - keep old data in old PingFree system, new system starts storing data when it goes live
+   - **Option B (More Complex):** Migrate all existing data from old system to new system
+   
    **Question:** Which approach do you prefer? Start fresh or migrate all historical data?
 
 2. **No Downtime:** Old system runs until new one is ready
@@ -110,3 +110,4 @@ Rebuild AllDayLoans and PingFree from scratch using modern 2026 technology:
 
 **Document Version:** 1.0  
 **Status:** Ready for Discussion
+
